@@ -51,6 +51,7 @@ div.col1 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: white;
+    column-width: 50px;
 
 }
 
@@ -59,8 +60,13 @@ div.col2 {
 }
 
 div.row {
-    height: 1120px;
-    width: span;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vh;
 }
 
+div.container {
+    width: 100vh;
+}
 /*-- hero here ends--*/
