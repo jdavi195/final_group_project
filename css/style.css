@@ -1,3 +1,65 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+a.nav-link {
+    padding: 20px;
+    margin: 0;
+    align-items: right;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'inter';
+    color: black;
+}
+
+a.nav-link:hover {
+    color: #006341;
+}
+
+a.nav-link button {
+    padding-left: 4px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: #1E3932;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    width: 140px;
+    height: 40px;
+    background-size: contain;
+}
+
+
+div.topnav-right {
+    text-align: center;
+    padding: 14px,16px;
+    margin-right: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-flex;
+    justify-content: right;
+}
+
+
+div.col1 {
+    background-color: rgb(255, 255, 255);
+    background-image: url("../images/Rewards.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background: cover;
+    padding: 0px;
+    width: 855px
+
+}
+
+div.col2 {
+    background-color: #1E3932;
+
+}
+
+div.row {
+    height: 1120px;
+    width: span;
+}
