@@ -1,7 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
 }
-
+/*-- Nav bar code here --*/
 a.nav-link {
     padding: 20px;
     margin: 0;
@@ -33,7 +33,7 @@ a.nav-link button {
 }
 
 div.topnav-right {
-    text-align: center;
+    text-align: right;
     padding: 14px,16px;
     margin-right: 12px;
     text-decoration: none;
@@ -42,12 +42,15 @@ div.topnav-right {
     justify-content: right;
 }
 
-div.col2 {
+/*-- Nav bar code here ends--*/
+
+/*-- hero here--*/
+div.col1 {
     background-color: rgb(255, 255, 255);
     background-image: url("../images/Rewards.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-color: brown;
+    background-color: white;
 
 }
 
@@ -59,3 +62,5 @@ div.row {
     height: 1120px;
     width: span;
 }
+
+/*-- hero here ends--*/
