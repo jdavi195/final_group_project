@@ -42,20 +42,17 @@ div.topnav-right {
     justify-content: right;
 }
 
-
-div.col1 {
-
-}
-
 div.col2 {
     background-color: rgb(255, 255, 255);
     background-image: url("../images/Rewards.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-color: brown;
-    background: cover;
-    padding: 0px;
-    width: 855px
+
+}
+
+div.col2 {
+    background-color: #1E3932;
 }
 
 div.row {
