@@ -1,12 +1,13 @@
+html {
+    scroll-padding-top: 110px;
+}
+
 body {
     font-family: 'Inter', sans-serif;      
         padding-top: 60px;
         padding-bottom: 40px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 /*-- Nav bar code here --*/
 a.nav-link {
@@ -49,7 +50,7 @@ div.topnav-right {
     justify-content: right;
 }
 
-.fixed-header, .fixed-footer{
+.fixed-header {
     width: 100%;
     position: fixed;        
     background:#1E3932;
@@ -57,42 +58,49 @@ div.topnav-right {
     padding-bottom: 30px;
     color: #fff;
     box-shadow: 0 3px 4px 0 rgba(0,0,0,.5);
-}
-.fixed-header{
     top: 0;
+    z-index: 1;
 }
 
 /*-- Nav bar code here ends--*/
 
 /*-- hero here--*/
-div.col1 {
-    background-color: rgb(255, 255, 255);
-    background-image: url("../images/Rewards.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-    column-width: 50px;
-}
-
-div.col2 {
-    background-color: #1E3932;
-    background-color: rgb(255, 255, 255);
-    background-image: url("../images/cup_and_guy.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    column-width: 50vw;
-    background-size:cover;
-}
-
 div.row {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width:50vw;
+    width:100vw;
 }
 
-div.container {
-    width: 100vw;
+
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+
+}
+
+@media screen and (min-width:768px) {
+    
+    .leftside, .rightside {
+
+        height: 100vh;
+    }
+
+}
+
+.leftside {
+    background: red;
+}
+
+.rightside {
+    background: blue;
+}
+
+div.wrapper {
+    margin: 0;
+    padding: 0;
+    width: 500vw;
+    position: relative;
 }
 /*-- hero here ends--*/
 
@@ -170,3 +178,71 @@ div.aboutdis {
     padding-top: 120px;
     align-items:center ;
   }
+
+/*---Demo section starts here--*/
+
+
+.Demo {
+    width: 1079px;
+    height: 76px;
+    flex-grow: 0;
+    margin: 0 193px 26px 121px;
+    font-family: Inter;
+    font-size: 67px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+div.demoit {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #1E3932;
+}
+
+div.demodis {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #006341;
+}
+
+@media screen and (max-width: 900px) and (min-width: 400px) {
+    div.demodis {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+  .Demo .text-style-2 {
+    font-weight: normal;
+  }
+
+  .Starbucks_demo_dis {
+    width: 100px;
+    height: 90px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  div.demodis img {
+    padding-top: 120px;
+    align-items:center ;
+  }
+
+
+div.Demo.jumbotron jumbotron-fluid {
+    
+}
+/*--Demo section ends here--*/
