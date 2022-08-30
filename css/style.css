@@ -1,5 +1,7 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;      
+        padding-top: 60px;
+        padding-bottom: 40px;
 }
 /*-- Nav bar code here --*/
 a.nav-link {
@@ -40,6 +42,19 @@ div.topnav-right {
     font-size: 17px;
     display: inline-flex;
     justify-content: right;
+}
+
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background:#1E3932;
+    padding-top: 10px 0;
+    padding-bottom: 30px;
+    color: #fff;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.5);
+}
+.fixed-header{
+    top: 0;
 }
 
 /*-- Nav bar code here ends--*/
@@ -86,7 +101,7 @@ section .About {
     width: 1728px;
     height: 1308px;
     flex-grow: 0;
-    margin: 0 0 78px;
+    margin: 0 0 12px;
     padding: 99px 132px 174px 203px;
 
   }
@@ -131,12 +146,13 @@ div.aboutdis {
     }
 }
 
+
   .About-STARBUCKS-kiosk .text-style-1 {
     font-weight: normal;
   }
 
   .Starbucks_about_dis {
-    width: 1322px;
+    width: 100px;
     height: 90px;
     flex-grow: 0;
     font-family: Inter;
@@ -145,3 +161,7 @@ div.aboutdis {
     color: #fff;
   }
 
+  div.aboutdis img {
+    padding-top: 120px;
+    align-items:center ;
+  }
