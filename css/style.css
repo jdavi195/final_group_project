@@ -79,7 +79,7 @@ div.row {
 
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:800px) {
     
     .leftside, .rightside {
 
@@ -89,18 +89,32 @@ div.row {
 }
 
 .leftside {
-    background: red;
+    background-image: url(../images/Rewards.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
 }
 
 .rightside {
-    background: blue;
+    background-image: url(../images/cup_and_guy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
-div.wrapper {
+.wrapper {
     margin: 0;
     padding: 0;
-    width: 500vw;
-    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+
+.wrapper .leftside:hover .images,
+.wrapper .rightside:hover .images
+{
+    transform: scale(1.2);
 }
 /*-- hero here ends--*/
 
