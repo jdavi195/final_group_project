@@ -3,6 +3,11 @@ body {
         padding-top: 60px;
         padding-bottom: 40px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 /*-- Nav bar code here --*/
 a.nav-link {
     padding: 20px;
