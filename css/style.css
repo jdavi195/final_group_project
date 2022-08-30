@@ -50,23 +50,98 @@ div.col1 {
     background-image: url("../images/Rewards.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-color: white;
+    background-size:contain;
     column-width: 50px;
-
 }
 
 div.col2 {
     background-color: #1E3932;
+    background-color: rgb(255, 255, 255);
+    background-image: url("../images/cup_and_guy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    column-width: 50vw;
+    background-size:cover;
 }
 
 div.row {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vh;
+    width:50vw;
 }
 
 div.container {
-    width: 100vh;
+    width: 100vw;
 }
 /*-- hero here ends--*/
+
+/*-- About starts here --*/
+
+section .About {
+    background-color: #1e3932;
+}
+
+.Rectangle-120 {
+    width: 1728px;
+    height: 1308px;
+    flex-grow: 0;
+    margin: 0 0 78px;
+    padding: 99px 132px 174px 203px;
+
+  }
+
+
+.About-STARBUCKS-kiosk {
+    width: 1079px;
+    height: 76px;
+    flex-grow: 0;
+    margin: 0 193px 26px 121px;
+    font-family: Inter;
+    font-size: 67px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+div.aboutit {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #1E3932;
+}
+
+div.aboutdis {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #006341;
+}
+
+@media screen and (max-width: 900px) and (min-width: 400px) {
+    div.aboutdis {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+  .About-STARBUCKS-kiosk .text-style-1 {
+    font-weight: normal;
+  }
+
+  .Starbucks_about_dis {
+    width: 1322px;
+    height: 90px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+  }
+
