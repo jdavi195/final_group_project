@@ -6,6 +6,7 @@ body {
     font-family: 'Inter', sans-serif;      
         padding-top: 60px;
         padding-bottom: 40px;
+        margin: 0;
 }
 
 
@@ -15,7 +16,7 @@ a.nav-link {
     margin: 0;
     align-items: right;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     font-family: 'inter';
     color: black;
@@ -35,9 +36,17 @@ a.nav-link button {
     border-radius: 30px;
     outline: none;
     border: none;
-    width: 140px;
-    height: 40px;
+    width: 120px;
+    height: 30px;
     background-size: contain;
+    font-size: 16px;
+}
+
+a.nav-link button:hover {
+    background-color: #006341;
+    transition: ease-in-out;
+    text-transform: bold;
+    
 }
 
 div.topnav-right {
@@ -193,11 +202,69 @@ div.aboutdis {
     align-items:center ;
   }
 
-/*---Demo section starts here--*/
+  .grid {
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    grid-auto-rows:minmax(100px, auto);
+    grid-gap:1.5em;
+    viewport-fit: contain;
+    justify-content: center;
+    padding-top: 30px;
+    
+  }
+  
+  .box1{
+    grid-column:1/2;
+    grid-row: 1/4;
+    background-image: url(../images/Beverage_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 590px;
+    height: 711px;
+  }
+  
+  .box2{
+    grid-column:2/4;
+    grid-row:1/3;
+    background-image: url(../images/Custom_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 598px;
+    height: 355px;
+  }
+  
+  .box3{
+    grid-column:2;
+    grid-row:3;
+    background-image: url(../images/Order_3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 272px;
+    height: 312px;
+  }
+  
+  .box4{
+    grid-column:3;
+    grid-row:3;
+    background-image: url(../images/Star_4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 272px;
+    height: 312px;
+  }
+
+
+/*--About Ends Here--*/
+
+/*--Demo section starts here--*/
 
 
 .Demo {
-    width: 1079px;
+    width: 1;
     height: 76px;
     flex-grow: 0;
     margin: 0 193px 26px 121px;
@@ -228,7 +295,7 @@ div.demodis {
     background-color: #006341;
 }
 
-@media screen and (max-width: 900px) and (min-width: 400px) {
+@media screen and (max-width: 1200px) and (min-width: 400px) {
     div.demodis {
         padding-left: 40px;
         padding-right: 40px;
