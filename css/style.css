@@ -264,10 +264,9 @@ div.aboutdis {
 
 
 .Demo {
-    width: 1;
     height: 76px;
     flex-grow: 0;
-    margin: 0 193px 26px 121px;
+    margin: 0 0 26px 0;
     font-family: Inter;
     font-size: 67px;
     font-weight: bold;
@@ -302,7 +301,6 @@ div.demodis {
     }
 }
 
-
   .Demo .text-style-2 {
     font-weight: normal;
   }
@@ -322,8 +320,45 @@ div.demodis {
     align-items:center ;
   }
 
+div.jumbotron.jumbotron {
+    padding: 0;
+    margin: 0;
+}
 
-div.Demo.jumbotron jumbotron-fluid {
-    
+div.bgcontainer {
+    background-image: url(../images/Pro_refresh_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    border-style: none;
+    background-size: contain;
+    background-position-x: right;
+    background-attachment: fixed;
+    text-align: start;
+    padding: 0;
+}
+
+div.bgcontainer h1.display-4 {
+    font-weight: bold;
+    font-style: none;
+    color: #CBA258;
+    padding-left: 50px;
+    text-emphasis:initial;
+    text-emphasis-color: green;
+}
+
+div.bgcontainer p {
+    padding-left: 50px;
+    color: #1e3932;
+    font-size: 46px;
+}
+
+div.grid1 {
+    background-color: transparent;
+}
+
+#bgvideo {
+    min-width: 25%;
+    min-height: 50vh;
 }
 /*--Demo section ends here--*/
