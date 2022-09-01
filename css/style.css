@@ -15,7 +15,7 @@ a.nav-link {
     margin: 0;
     align-items: right;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     font-family: 'inter';
     color: black;
@@ -50,10 +50,10 @@ a.nav-link button:hover {
 
 div.topnav-right {
     text-align: right;
-    padding: 14px,16px;
+    padding: 16px,18px;
     margin-right: 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     display: inline-flex;
     justify-content: right;
 }
@@ -71,6 +71,10 @@ div.topnav-right {
 }
 
 /*-- Nav bar code here ends--*/
+
+/*--splash--*/
+
+/*--splash ends--*/
 
 /*-- hero here--*/
 div.row {
@@ -286,6 +290,11 @@ div.aboutdis {
     color: #fff;
   }
 
+.demodis h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 div.demoit {
     text-align: center;
     padding-top: 5%;
@@ -300,6 +309,12 @@ div.demodis {
     padding-left: 200px;
     padding-right: 200px;
     background-color: #006341;
+}
+
+.demodis h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1200px) and (min-width: 400px) {
@@ -353,13 +368,31 @@ div.bgcontainer h1.display-4 {
     padding-left: 50px;
     text-emphasis:initial;
     text-emphasis-color: green;
+    padding-top: 45px;
 }
 
-div.bgcontainer p {
+div.bgcontainer p.Dis1 {
     padding-left: 50px;
+    padding-right: 250px;
     color: #1e3932;
     font-size: 46px;
 }
+
+div.bgcontainer p.Dis2 {
+    padding-left: 50px;
+    padding-right: 250px;
+    color: #1e3932;
+    font-size: 36px;
+}
+
+div.bgcontainer p.Dis3 {
+    padding-left: 50px;
+    padding-right: 250px;
+    color: #1e3932;
+    font-size: 56px;
+    font-weight: bolder;
+}
+
 
 div.grid1 {
     background-color: transparent;
@@ -371,21 +404,92 @@ div.grid1 {
 }
 /*--Demo section ends here--*/
 
+/*-- FAQs section--*/
+div.jumbotron-fluid{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/Palm_Cafe_Wroclaw_Poland.jpg);
+
+}
+
+/*-- FAQs section ends--*/
+/*-- Locations start here--*/
+
+.search {
+display: flex;
+text-align: center;
+justify-content: center;
+font-size:67px;
+font-family: inter;
+font-weight: bold;
+color: #ffffff;
+background-color: #1E3932;
+height: 200px;
+padding-top: 50px;
+}
+
+.box{
+    width: 100%;
+    text-align:center;
+}
+
+.Store-Locator-Starbucks-Coffee-Company-1-1 {
+    width: 100%;
+    height: 45vh;
+    margin:0;
+    padding: 0;
+  }
+
+.box_search1 {
+    padding-left: 100px;
+}
+/*-- live map
+.gmap_canvas {overflow:hidden;background:none!important;height:440px;width:650px;}
+--*/
+
+
+/*-- Location ends--*/
+
 .footer {
     position:relative;
     left: 0;
     width: 100%;
-    background-color: red;
+    min-height: 250px;
+    background-color: #1E3932;
     color: white;
     text-align: center;
 }
 
 .footer {
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    align-items: left;
     justify-content: left;
     line-height: 3rem;
     height: 100px;
     padding-left: 50px;
+    text-align:start;
 
+}
+
+.footer .boxlogo {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding-top: 5px;
+ 
+  }
+
+  .footer .boxtext {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 5px;
+    text-decoration: none;
+    padding-right: 150px;
+ }
+
+.footer {
+    font-size: 18px;
 }
