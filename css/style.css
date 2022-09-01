@@ -263,7 +263,7 @@ div.aboutdis {
 
 /*--About Ends Here--*/
 
-/*--Demo section starts here--*/
+/*-- FAQs section--*/
 
 .Demo_kiosk {
     display: flex;
@@ -352,7 +352,7 @@ div.bgcontainer {
     background-image: url(../images/Pro_refresh_2.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 900px;
     border-style: none;
     background-size: contain;
     background-position-x: right;
@@ -375,7 +375,16 @@ div.bgcontainer p.Dis1 {
     padding-left: 50px;
     padding-right: 250px;
     color: #1e3932;
-    font-size: 46px;
+    font-size: 36px;
+}
+
+p.response1 {
+    background-color: transparent;
+    padding-left: 5%;
+    font-size: 20px;
+    color: #1E3932;
+    font-weight: bold;
+    padding-right: 62%;
 }
 
 div.bgcontainer p.Dis2 {
@@ -385,14 +394,31 @@ div.bgcontainer p.Dis2 {
     font-size: 36px;
 }
 
+p.response2 {
+    background-color: transparent;
+    padding-left: 5%;
+    font-size: 20px;
+    color: #1E3932;
+    font-weight: bold;
+    padding-right: 62%;
+}
+
 div.bgcontainer p.Dis3 {
     padding-left: 50px;
     padding-right: 250px;
     color: #1e3932;
     font-size: 56px;
-    font-weight: bolder;
+    font-size:36px;
 }
 
+p.response3 {
+    background-color: transparent;
+    padding-left: 5%;
+    font-size: 20px;
+    color: #1E3932;
+    font-weight: bold;
+    padding-right: 62%;
+}
 
 div.grid1 {
     background-color: transparent;
@@ -402,20 +428,18 @@ div.grid1 {
     min-width: 25%;
     min-height: 50vh;
 }
-/*--Demo section ends here--*/
 
-/*-- FAQs section--*/
 div.jumbotron-fluid{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     height: 100vh;
     width: 100%;
-    background-image: url(../images/Palm_Cafe_Wroclaw_Poland.jpg);
-
 }
 
 /*-- FAQs section ends--*/
+/*--Demo section Starts here--*/
+/*--Demo section ends here--*/
 /*-- Locations start here--*/
 
 .search {
