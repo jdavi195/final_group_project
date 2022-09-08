@@ -470,6 +470,63 @@ padding-top: 50px;
 .box_search1 {
     padding-left: 100px;
 }
+
+/*-- Modal css contact up page --*/
+
+.modal-bg {
+    display: flex; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal{
+    background-color: #fff;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 0;
+    padding: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    width: 400px;
+    height: 60vh;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-content button {
+    margin-top: 10px;
+}
+
+.modal-content p {
+    margin-top: 10px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/*-- Modal css contact up page ends --*/
+
+
 /*-- live map
 .gmap_canvas {overflow:hidden;background:none!important;height:440px;width:650px;}
 --*/
