@@ -39,6 +39,7 @@ a.nav-link button {
     height: 30px;
     background-size: contain;
     font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 a.nav-link button:hover {
@@ -438,8 +439,7 @@ div.jumbotron-fluid{
 }
 
 /*-- FAQs section ends--*/
-/*--Demo section Starts here--*/
-/*--Demo section ends here--*/
+
 /*-- Locations start here--*/
 
 .search {
@@ -473,6 +473,36 @@ padding-top: 50px;
 
 /*-- Modal css contact up page --*/
 
+.myBtn {
+    width: 150px;
+    background-color: #1E3932;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+.myBtn:hover {
+    background-color:#006341;
+    transition: 0.5ms;
+
+}
+
+.input {
+    width: 400px;
+    height: 50vh;
+    border-radius: 5px;
+    border-color: #1E3932;
+    padding: 10px;
+}
+
+.forumtext {
+    font-size: large;
+    padding-right: 25%;
+    padding-bottom: 0;
+}
+
 .modal-bg {
     display: flex; 
     position: fixed;
@@ -485,21 +515,26 @@ padding-top: 50px;
     background-color: rgba(0,0,0,0.4); 
 }
 
-.modal{
+.myModal{
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fefefe;
     margin: 0;
     padding: 10%;
     padding-left: 50px;
     padding-right: 50px;
     align-items: center;
-    width: 400px;
     height: 60vh;
     border: 1px solid #888;
-    width: 80%;
+    width: 50px;
 }
 
 .modal-content button {
@@ -508,11 +543,19 @@ padding-top: 50px;
 
 .modal-content p {
     margin-top: 10px;
+    padding-top: 15px;
+}
+
+.block {
+    width: 100%;
+    height: 50vh;
+
 }
 
 .close {
     color: #aaaaaa;
-    float: right;
+    position:absolute;
+    top: 20px; right: 40px;
     font-size: 28px;
     font-weight: bold;
   }
@@ -535,10 +578,12 @@ padding-top: 50px;
 /*-- Location ends--*/
 
 .footer {
+    display: flex;
+    justify-content: flex-start;
     position:relative;
     left: 0;
     width: 100%;
-    min-height: 250px;
+    min-height: 50vh;
     background-color: #1E3932;
     color: white;
     text-align: center;
@@ -552,7 +597,6 @@ padding-top: 50px;
     height: 100px;
     padding-left: 50px;
     text-align:start;
-
 }
 
 .footer .boxlogo {
